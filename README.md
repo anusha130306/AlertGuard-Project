@@ -50,52 +50,6 @@ The system follows a **modular, layered, client-server architecture**:
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.x
-- Webcam-enabled device
-- Twilio account (for SMS alerts)
-- Google Maps API key
-
-### Installation
-```bash
-git clone https://github.com/<your-username>/alertguard.git
-cd alertguard
-pip install -r requirements.txt
-```
-
-### Configuration
-Create a `.env` file with your API credentials:
-```
-TWILIO_ACCOUNT_SID=your_sid
-TWILIO_AUTH_TOKEN=your_token
-TWILIO_PHONE_NUMBER=your_twilio_number
-GOOGLE_MAPS_API_KEY=your_maps_key
-```
-
-### Run
-```bash
-python app.py
-```
-Then open `http://localhost:5000` in your browser.
-
----
-
-## 📸 Demo / Screenshots
-
-| Registration | Login | Dashboard |
-|---|---|---|
-| ![Registration](assets/screenshots/registration.png) | ![Login](assets/screenshots/login.png) | ![Dashboard](assets/screenshots/dashboard.png) |
-
-| Live Location | Emergency SMS Alert |
-|---|---|
-| ![Map](assets/screenshots/map.png) | ![SMS Alert](assets/screenshots/sms_alert.png) |
-
-> See [Uploading Demo Images](#-how-to-add-your-demo-images) below to add your own screenshots.
-
----
-
 ## 🧪 Testing
 
 The system was validated through unit, integration, functional, performance, and scenario-based testing — simulating normal driving, drowsy, and sleeping conditions to confirm detection accuracy and alert reliability.
